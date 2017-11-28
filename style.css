@@ -24,12 +24,11 @@ a, a:hover, a:focus {
 }
 
 .navbar {
-    padding: 15px 10px;
-    background: #fff;
     border: none;
-    border-radius: 0;
-    margin-bottom: 40px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 5px 5px;
+    /* border-radius: 0; */
+    /* margin-bottom: 40px; */
+    /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); */
 }
 
 .navbar-btn {
@@ -92,6 +91,7 @@ a, a:hover, a:focus {
 	justify-content: center;
 	height: 60px;
 	color: #fff;
+	border-bottom: 1px solid #6d7fcc;
 }
 
 #dismiss {
@@ -128,7 +128,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
+    padding-top: 20px;
     border-bottom: 1px solid #47748b;
 }
 
