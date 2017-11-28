@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+
+body{
+	background-image: url('login_page.jpg');
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-color: #464646;
+	
+	-webkit-font-smoothing: antialiased;
+	font: normal 14px Roboto,arial,sans-serif;
+}
+
+.container {
+
+	height: 100vh;
+	width: 100vw;
+	padding-top:30vh;
+	padding-bottom:30vh;
+	padding-left:30vw;
+	padding-right:30vw;
+
+ 
+}
+
+
+
+#h1id{
+	text-align: center;
+}
+
+h1{
+	font-size: 2vw;
+}
+
+.form-login {
+	height:100%;
+	width:100%;
+    background-color: #EDEDED;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 80px;
+}
+
+#userName, #userPassword{
+	text-align:center;
+	border-radius:30px;
+	height: 20%;
+	width: 100%;
+	font-size: 1vw;
+}
+
+.wrapper {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper .btn{
+	padding-left: 1vw;
+	padding-right: 1vw;
+	font-size: 2vh;
+	border-radius: 20px;
+}
+
+
