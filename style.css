@@ -24,17 +24,41 @@ a, a:hover, a:focus {
 }
 
 .navbar {
+	padding-left: 20px;
     border: none;
-    padding: 5px 5px;
     /* border-radius: 0; */
     /* margin-bottom: 40px; */
     /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); */
+}
+
+
+
+.btn-info{
+	background-color:#3bafda;
+	/* #4fc1e9; */
+}
+
+.navbar-btn{
+	margin:0px; 
+	font-size:16px;
+}
+
+.navbar_own{
+	margin-right: 50px;
 }
 
 .navbar-btn {
     box-shadow: none;
     outline: none !important;
     border: none;
+}
+
+.vertical-center{
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
 }
 
 .line {
