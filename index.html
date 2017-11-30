@@ -11,13 +11,16 @@
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <link rel = "stylesheet" href="style.css" type="text/css"/>
 	  <link rel = "stylesheet" href="breadcrumb.css" type="text/css"/>
+	  <script src="angular.min.js"></script>
+	  <script type="text/javascript" src="app.module.js"></script>
+      <script type="text/javascript" src="soldiers/soldier-list.module.js"></script> 
+	  <script type="text/javascript" src="soldiers/soldier-list.component.js"></script>
 
 	 
 	 
 </head>
 
-<body ng-app>
-
+<body>
  <div class="wrapper">
             <!-- Sidebar Holder -->
             <nav id="sidebar" class="mCustomScrollbar _mCS_1 mCS-autoHide" style="overflow: visible;">
@@ -84,18 +87,13 @@
 			
 				</div>
 				<br>
-				<br>
-				<div>
-					<h2>Col Sidebar Usssing Bootstrap 3</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-					<div class="line"></div>
-
-					<h2>Lorem Ipsum Dolor</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					
+				
+				<div class="container-fluid" style="background-color:#e6e9ed; padding-left:0px; padding-right:0px; border-radius:30px;">
+					<div ng-app="commanderApp">
+						<soldier-List></soldier-List>
+					</div>
 				</div>
+				
 			</div>
 
 
@@ -103,7 +101,7 @@
     <div class="overlay" style="display: none;"></div>
 
 
-	 <script src="angular.min.js"></script>
+	
 	 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
 	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
