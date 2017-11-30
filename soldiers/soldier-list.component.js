@@ -2,6 +2,7 @@ angular.
   module('soldierList').
   component('soldierList', {
     templateUrl: 'soldiers/soldier-list.template.html',
+	
     controller: function SoldierListController() {
       this.soldiers = [
         {
