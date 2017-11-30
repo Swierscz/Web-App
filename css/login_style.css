@@ -1,13 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400);
 
 body{
-	background-image: url('login_page.jpg');
+	background-image: url('../img//background//login_page.jpg');
 	background-position: center center;
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
-    background-color: #464646;
-	
+    background-color: #464646; 
 	-webkit-font-smoothing: antialiased;
 	font: normal 14px Roboto,arial,sans-serif;
 }
