@@ -1,1 +1,1 @@
-angular.module('soldierList', ['ngRoute']);
+angular.module('soldierList', ['ngRoute','angularCSS']);

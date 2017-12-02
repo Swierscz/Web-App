@@ -6,10 +6,11 @@ angular.
 
       $routeProvider.
         when('/situationView', {
-          template: '<soldier-list></soldier-list>'
+          template: '<soldier-list></soldier-list>',
+		  css: 'soldiers/soldier-list.style.css'
         }).
         when('/settingsView', {
-          template: '<settings-list></settings-list>'
+		  template: '<settings-list></settings-list>',
         }).
         otherwise('/situationView');
     }

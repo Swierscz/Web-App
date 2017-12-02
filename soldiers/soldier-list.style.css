@@ -1,4 +1,26 @@
-.dupa{
-	background-color:green;
-	font-size:20px;
+.sldFieldContainer{
+	padding:10px 10px 10px 10px;
+	background-color:#e6e9ed;
+	height:400px;
+	width:600px
+}
+
+.sldFieldContainerWithBackground{
+	background-color:gray;
+	height: 100%;
+	padding: 10px 10px 10px 10px;
+	border-radius:10px;
+}
+
+.soldierData{
+	margin-left:160px;
+}
+.sldImgContainer{
+	height:200px;
+	width:140px;
+}
+.sldImage{
+	height:100%;
+	width:100%;
+
 }

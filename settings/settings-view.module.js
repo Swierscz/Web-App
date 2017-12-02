@@ -1,1 +1,1 @@
-angular.module('settingsList', ['ngRoute']);
+angular.module('settingsList', ['ngRoute','angularCSS']);
