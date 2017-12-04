@@ -1,1 +1,1 @@
-angular.module('commanderApp',['ngRoute','angularCSS','settingsList','soldierList']);
+angular.module('commanderApp',['ui.router','mainView','loginView','soldierList','settingsList']);
