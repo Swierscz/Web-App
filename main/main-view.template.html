@@ -1,0 +1,77 @@
+ <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar" class="mCustomScrollbar _mCS_1 mCS-autoHide" style="overflow: visible;">
+                <div class="sidebar-header">
+					<div id="soldier_image">
+						<img src="img/commanders/Soldier.jpg" id="soldier" class="img-rounded" height = "120" width="100" alt="Profil photo">
+					</div>
+			
+					<div id="sidebar_information_table">
+					 <div class="sidebar_information_table_row">
+						<div class="sidebar_information_table_col">Pododdział:</div>
+						<div class="sidebar_information_table_col">3pl/3kp</div>
+					 </div>
+					 <div class="sidebar_information_table_row">
+						<div class="sidebar_information_table_col">Stopień:</div>
+						<div class="sidebar_information_table_col">st. kpr.</div>
+					 </div>
+					 <div class="sidebar_information_table_row">
+						<div class="sidebar_information_table_col">Imie:</div>
+						<div class="sidebar_information_table_col">Jacek</div>
+					 </div>
+					 <div class="sidebar_information_table_row">
+						<div class="sidebar_information_table_col">Nazwisko:</div>
+						<div class="sidebar_information_table_col">Wilczopolski</div>
+					 </div>
+					</div>
+                    <div style="clear:both"></div>
+                </div>
+				<div id="nation_title">   
+					Siły zbrojne RP
+				</div>
+				<br>
+				<div>
+				    <ul class="list-unstyled components">
+                    <li><a href="#">Przegląd sytuacji</a></li>
+                    <li><a href="#">Komponent mapowy</a></li>
+					<li><a href="#!/settingsView">Ustawienia</a></li>
+					<li><a href="#">Tworzenie konta klienckiego</a></li>
+					<br><br>
+                    <li><a href="#">Wyloguj</a></li>
+					</ul>
+				</div>
+            </div>
+			</nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+				<div id="navbar_bar_own">
+					<div class="navbar_own" style="float:left">
+						<button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+							<i class="glyphicon glyphicon-align-left"></i>
+							<span>Menu</span>
+						</button>
+					</div>	
+					<div style="min-width:700px">
+						<ol class="breadcrumb breadcrumb-arrow">
+							<li><a href="#">2 Batalion WAT</a></li>
+							<li><a href="#">3 Kompania</a></li>
+							<li><a href="#">3 Pluton</a></li>
+							<li class="active"><span>2 Drużyna</span></li>
+						</ol>
+					</div>
+					<div style="clear:both"></div>
+			
+				</div>
+				<br>
+				 
+				<div class="container-fluid" style="background-color:#e6e9ed; padding-left:0px; padding-right:0px; border-radius:30px;">	
+
+					<ui-view></ui-view>
+
+				</div>
+				
+			</div>
+
+			
+			<div class="overlay" style="display: none;"></div>
