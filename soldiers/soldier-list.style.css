@@ -1,8 +1,19 @@
+/*.bigBox{*/
+	/*margin:auto;*/
+	/*align-content: center;*/
+	/*align-items: center;*/
+	/*align-self: center;*/
+	/*background-color: #0b2e13;*/
+/*}*/
+
+#eqList ul{height:60px; width:350px;}
+#eqList ul{overflow:hidden; overflow-y:scroll;}
+
 .sldFieldContainer{
 	padding:10px 10px 10px 10px;
 	background-color:#e6e9ed;
-	height:400px;
-	width:600px
+	height:500px;
+	width:800px
 }
 
 .sldFieldContainerWithBackground{
@@ -12,15 +23,100 @@
 	border-radius:10px;
 }
 
-.soldierData{
-	margin-left:160px;
+ .leftContainer{
+	 padding-left: 10px;
+	 padding-top: 10px;
+	 border-top:solid;
+	 border-left: solid;
+	 border-bottom: solid;
+	 border-right: solid;
+	 border-width: 1px;
+	 height: 100%;
+	 width: 50%;
+ }
+
+ .rightContainer{
+	 border-top:solid;
+	 border-bottom: solid;
+	 border-right: solid;
+	 border-width: 1px;
+	padding-top: 10px;
+	height: 100%;
+	width:	50%;
 }
+
+ .imageAndDataContainer{
+	 border-bottom: solid;
+	 border-width: 1px;
+	 padding-bottom: 10px;
+ }
+
 .sldImgContainer{
-	height:200px;
-	width:140px;
+
+	border: dashed;
+	border-width: 1px;
+	padding: 5px 5px 5px 5px;
+	margin-right: 5px;
+	height:38%;
+	width:35%;
 }
+
 .sldImage{
 	height:100%;
 	width:100%;
-
 }
+
+.soldierData{
+	margin-top: -10px;
+}
+
+h1{
+	font-size:14px;
+}
+
+.equipmentData{
+	padding-top: 5px;
+	/*border-style: dotted;*/
+	/*border-width: 1px;*/
+	height: 60%;
+	width: 100%;
+}
+
+#equipmentList{
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: dotted;
+	border-width: 1px;
+}
+
+.title{
+	font-size:16px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px dotted black;
+}
+.eqLiF{
+	float:left;
+}
+.eqLiS{
+	float:right;
+
+	margin-right: 10px;
+}
+
+.amountOfEquipment{
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.amount{
+	padding-top: 5px;
+}
+
+
+
+
+
